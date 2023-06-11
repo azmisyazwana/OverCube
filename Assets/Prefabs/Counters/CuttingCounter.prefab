@@ -335,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 7454230010537335169, guid: 4309364b14be87443b5d0cd3150390a7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7454230010537335169, guid: 4309364b14be87443b5d0cd3150390a7,
         type: 3}
@@ -431,6 +431,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 78c5841c61a136c44b8143fd9f431f66, type: 2}
   - {fileID: 11400000, guid: 515c563e233d0f64bb7cdda82f1e7344, type: 2}
   - {fileID: 11400000, guid: c9e3264f01c39464fa2afc4fa0f79190, type: 2}
+  - {fileID: 11400000, guid: e758dd738eedc84488ed2ed3bbb8e3a7, type: 2}
 --- !u!4 &7477741150877781096 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8991656326862827589, guid: 4309364b14be87443b5d0cd3150390a7,
