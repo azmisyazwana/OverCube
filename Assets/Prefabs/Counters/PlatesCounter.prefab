@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterTopPoint: {fileID: 5740769818862459774}
-  plateKitchenObjectSO: {fileID: 11400000, guid: 38949c651217a5e4690495637dd7e5c7,
+  plateKitchenObjectSO: {fileID: 11400000, guid: f5232cae1252c114abde72b8293f5e32,
     type: 2}
 --- !u!1001 &7743936295344890959
 PrefabInstance:
@@ -376,5 +376,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platesCounter: {fileID: 6455836953886603423}
   counterTopPoint: {fileID: 5740769818862459774}
-  plateVisualPrefab: {fileID: 3812876574508226176, guid: c0c9afd619b40914a8f625c0535e2284,
+  plateVisualPrefab: {fileID: 3812876574508226176, guid: 727f18a1891960a479a2da79bd7c7eaa,
     type: 3}

@@ -16,3 +16,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 53153f9cd3f202648935955e54f60b93, type: 2}
   - {fileID: 11400000, guid: f8d69acc7a8656c45bcdcb4ef100ee58, type: 2}
   recipeName: Salad
+  isTextOnly: 0

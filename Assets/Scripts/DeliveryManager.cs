@@ -47,6 +47,7 @@ public class DeliveryManager : MonoBehaviour
     public void DeliverRecipe(PlateKitchenObject plateKitchenObject){
         for(int i = 0; i < waitingRecipeSOList.Count; i++){
             RecipeSO waitingRecipeSO = waitingRecipeSOList[i];
+            
 
             
 
@@ -57,6 +58,7 @@ public class DeliveryManager : MonoBehaviour
                     // Cycling through all ingredients in the Recipe
                     bool ingridientFound = false;
                     foreach(KitchenObjectSO plateKitchenObjectSO in plateKitchenObject.GetKitchenObjectSOList()){
+                        Debug.Log(plateKitchenObjectSO);
                         // Cycling through all ingredients in the Plate
                         if(plateKitchenObjectSO == recipeKitchenObjectSO){
                             // Ingredient matches!

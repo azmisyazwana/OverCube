@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c8172dc9a911764eb45b078a510ddfd, type: 3}
-  m_Name: Burger
+  m_Script: {fileID: 11500000, guid: e2bd029ea4d535e44853562d39fca2e3, type: 3}
+  m_Name: Basket
   m_EditorClassIdentifier: 
-  kitchenObjectSOList:
-  - {fileID: 11400000, guid: 5ee6dafaea3a17847b7864e4551084af, type: 2}
-  - {fileID: 11400000, guid: f7249da68c0c38d49abb813b98b52726, type: 2}
-  recipeName: Burger
+  prefabs: {fileID: 6156030231091527595, guid: c12661282509f1c4eb2fe418f32abfa4, type: 3}
+  sprite: {fileID: 21300000, guid: 3928afb5321bb3d489bbd4ac581b29a2, type: 3}
+  objectName: Basket

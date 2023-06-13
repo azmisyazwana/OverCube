@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2bd029ea4d535e44853562d39fca2e3, type: 3}
-  m_Name: Plate
+  m_Name: Sphere
   m_EditorClassIdentifier: 
-  prefabs: {fileID: 6156030231091527595, guid: f08e8b986734fbc418affe63aa9be82f, type: 3}
-  sprite: {fileID: 21300000, guid: 3928afb5321bb3d489bbd4ac581b29a2, type: 3}
-  objectName: Plate
+  prefabs: {fileID: 6156030231091527595, guid: 7f108e011d03ef24dac93dccb24b6f56, type: 3}
+  sprite: {fileID: 21300000, guid: aa1bacc24dde76e47b2ec0dd4e82385b, type: 3}
+  objectName: Sphere
