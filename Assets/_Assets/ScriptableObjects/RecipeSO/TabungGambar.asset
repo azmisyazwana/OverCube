@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c8172dc9a911764eb45b078a510ddfd, type: 3}
-  m_Name: KubusSifat
+  m_Name: TabungGambar
   m_EditorClassIdentifier: 
   kitchenObjectSOList:
-  - {fileID: 11400000, guid: df2d80ac367c42e44b11d4cb2aa3cd59, type: 2}
-  recipeName: (1) Mempunyai 5 sisi\n(2) Mempunyai 6 titik sudut\n(3) Mempunyai 9
-    rusuk\n(4) Sisi tegak berbentuk persegi panjang
-  isTextOnly: 1
+  - {fileID: 11400000, guid: 45b616cb8bf40a146b3f504866b4a372, type: 2}
+  recipeName: 
+  isTextOnly: 0

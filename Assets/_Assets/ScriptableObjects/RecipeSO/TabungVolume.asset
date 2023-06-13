@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c8172dc9a911764eb45b078a510ddfd, type: 3}
-  m_Name: Salad
+  m_Name: TabungVolume
   m_EditorClassIdentifier: 
   kitchenObjectSOList:
-  - {fileID: 11400000, guid: 53153f9cd3f202648935955e54f60b93, type: 2}
-  - {fileID: 11400000, guid: f8d69acc7a8656c45bcdcb4ef100ee58, type: 2}
-  recipeName: Salad
-  isTextOnly: 0
+  - {fileID: 11400000, guid: 45b616cb8bf40a146b3f504866b4a372, type: 2}
+  recipeName: "Bangun Ruang Apakah Ini?[n]V = \u03C0 x r\xB2 x t"
+  isTextOnly: 1

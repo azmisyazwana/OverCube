@@ -60,7 +60,8 @@ public class KitchenGameManager : MonoBehaviour
                 break;
             case State.GamePlaying:
                 gamePlayingTimer -= Time.deltaTime;
-                if(gamePlayingTimer < 0f){
+                if(gamePlayingTimer < 0f || DeliveryManager.Instance.isQuestionEmpty()){
+                    // waktu habis || soalnya udah abis
                     state = State.GameOver;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
                 }

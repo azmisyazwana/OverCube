@@ -28,17 +28,17 @@ public class PlateKitchenObject : KitchenObject
             // not a valid ingredients
             return false;
         }
-        if(kitchenObjectSOList.Contains(kitchenObjectSO)){
-            // already has this type
-            return false;
-        }else{
+        // if(kitchenObjectSOList.Contains(kitchenObjectSO)){
+        //     // already has this type
+        //     return false;
+        // }else{
             kitchenObjectSOList.Add(kitchenObjectSO);
 
             OnIngredientAdded?.Invoke(this, new OnIngredientAddedEventArgs{
                 kitchenObjectSO = kitchenObjectSO
             });
             return true;
-        }
+        // }
     }
 
     public List<KitchenObjectSO> GetKitchenObjectSOList(){

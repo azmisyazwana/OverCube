@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c8172dc9a911764eb45b078a510ddfd, type: 3}
-  m_Name: Cube
+  m_Name: BolaNama
   m_EditorClassIdentifier: 
   kitchenObjectSOList:
-  - {fileID: 11400000, guid: df2d80ac367c42e44b11d4cb2aa3cd59, type: 2}
-  recipeName: Cube
+  - {fileID: 11400000, guid: 33522492737f16b48847c9c7bbc74a46, type: 2}
+  recipeName: BOLA
+  isTextOnly: 1

@@ -17,15 +17,18 @@ public class DeliveryManager : MonoBehaviour
 
     private List<RecipeSO> waitingRecipeSOList;
     private float spawnRecipeTimer;
-    private float spawnRecipeTimerMax = 4f;
-    private int waitingRecipeMax = 4;
+    private float spawnRecipeTimerMax = 0f;
+    private int waitingRecipeMax = 1;
     private int successfulRecipesAmount;
+    private List<RecipeSO> recipeListCopy;
 
     private void Awake() {
         Instance = this;
 
 
         waitingRecipeSOList = new List<RecipeSO>();
+
+        recipeListCopy = new List<RecipeSO>(recipeListSO.recipeSOList);
     }
 
     private void Update() {
@@ -34,11 +37,17 @@ public class DeliveryManager : MonoBehaviour
             spawnRecipeTimer = spawnRecipeTimerMax;
 
             if(waitingRecipeSOList.Count < waitingRecipeMax){
-                RecipeSO waitingRecipeSO = recipeListSO.recipeSOList[UnityEngine.Random.Range(0, recipeListSO.recipeSOList.Count)];
+                // 1 SOAL 1 KALI MUNCUL
+                if(recipeListCopy.Count != 0){
+                    RecipeSO waitingRecipeSO = recipeListCopy[UnityEngine.Random.Range(0, recipeListCopy.Count)];
+                
+                    recipeListCopy.Remove(waitingRecipeSO);
 
-                waitingRecipeSOList.Add(waitingRecipeSO);
+                    waitingRecipeSOList.Add(waitingRecipeSO);
 
-                OnRecipeSpawned?.Invoke(this, EventArgs.Empty);
+                    OnRecipeSpawned?.Invoke(this, EventArgs.Empty);
+                }
+                
             }
             
         }
@@ -143,6 +152,10 @@ public class DeliveryManager : MonoBehaviour
 
     public int GetSuccessfulRecipesAmount(){
         return successfulRecipesAmount;
+    }
+
+    public bool isQuestionEmpty(){
+        return recipeListSO.recipeSOList.Count == successfulRecipesAmount;
     }
 
 }

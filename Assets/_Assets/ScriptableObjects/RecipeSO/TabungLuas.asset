@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8172dc9a911764eb45b078a510ddfd, type: 3}
+  m_Name: TabungLuas
+  m_EditorClassIdentifier: 
+  kitchenObjectSOList:
+  - {fileID: 11400000, guid: 45b616cb8bf40a146b3f504866b4a372, type: 2}
+  recipeName: "Luas Permukaan Bangun Ruang Apakah Ini?[n]L = 2 x \u03C0 x r x (r
+    + t) "
+  isTextOnly: 1
