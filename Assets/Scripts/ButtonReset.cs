@@ -18,23 +18,6 @@ public class ButtonReset : MonoBehaviour
         });
     }
 
-
-
-    // private void ResetPosition(){
-    //     int i = 0;
-    //     while(i <= gameObjectList.Count - 1 && !isFound){
-    //         if(gameObjectList[i].activeSelf == true){
-    //             isFound = true;
-    //             gameObjectList[i].transform.position = new Vector3(initialRotationList[i].position.x, initialRotationList[i].position.y, initialRotationList[i].position.z);
-    //             // gameObjectList[i].transform.rotation = initialRotationList[i].rotation;
-    //             Debug.Log(initialRotationList[i].position);
-    //         }
-    //         i++;
-    //     }
-    //     // gameObjectList[0].transform.position = new Vector3(0, 0, 0);
-
-    // }
-
     private void ResetPosition(){
         int index = GetIndexObjectActive();
         
