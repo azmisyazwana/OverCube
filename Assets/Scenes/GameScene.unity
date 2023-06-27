@@ -351,6 +351,7 @@ MonoBehaviour:
   resumeButton: {fileID: 139892334}
   mainMenuButton: {fileID: 731204829}
   optionsButton: {fileID: 78618029}
+  scene: 1
 --- !u!1 &78618025
 GameObject:
   m_ObjectHideFlags: 0
@@ -7561,6 +7562,7 @@ MonoBehaviour:
   closeButton: {fileID: 1454974219}
   soundEffectsText: {fileID: 1302614811}
   musicText: {fileID: 624097086}
+  scene: 1
 --- !u!1 &1588133221
 GameObject:
   m_ObjectHideFlags: 0

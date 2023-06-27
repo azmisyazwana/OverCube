@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1772fdd4136876c4a8f901ca5979583f, type: 3}
+  m_Name: RusukVertikalCG
+  m_EditorClassIdentifier: 
+  prefabs: {fileID: 7155197520020658912, guid: eebd2945e754da449ba203cacc69e60a, type: 3}
+  namaTitik: CG
+  namaUnsur: Rusuk
