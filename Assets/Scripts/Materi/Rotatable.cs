@@ -26,6 +26,16 @@ public class Rotatable : MonoBehaviour
         axis.performed += context => { rotation = context.ReadValue<Vector2>(); };
     }
 
+    private void OnEnable() {
+        pressed.Enable();
+        axis.Enable();
+    }
+
+    private void OnDisable() {
+        pressed.Disable();
+        axis.Disable();
+    }
+
     private void Update()
     {
         if (!gameObject.activeSelf)
@@ -67,5 +77,10 @@ public class Rotatable : MonoBehaviour
             transform.Rotate(cam.right * (isInverted ? -1 : 1), rotation.y, Space.World);
             yield return null;
         }
+    }
+
+    private void OnDestroy()
+    {
+        StopCoroutine(Rotate());
     }
 }

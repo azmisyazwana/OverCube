@@ -13,13 +13,25 @@ public class MateriManager : MonoBehaviour
 
     private bool isMateriPaused = false;
 
+    private Rotatable rotatableObject;
+
     private void Awake() {
         Instance = this;
     }
 
     private void Start() {
         GameInput.Instance.OnPauseAction += GameInput_OnPauseAction;
+
+        rotatableObject = FindObjectOfType<Rotatable>();
     }
+
+    private void OnDestroy()
+    {
+        // Menghapus referensi objek Rotatable saat objek ini dihancurkan atau scene berubah
+        rotatableObject = null;
+    }
+
+
 
     private void GameInput_OnPauseAction(object sender, EventArgs e){
         TogglePauseMateri();

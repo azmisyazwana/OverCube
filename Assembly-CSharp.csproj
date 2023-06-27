@@ -105,6 +105,7 @@
      <Compile Include="Assets\Scripts\UI\PlateIconsSingleUI.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\AudioClipRefsSO.cs" />
      <Compile Include="Assets\Scripts\GroupToggleMateri.cs" />
+     <Compile Include="Assets\Scripts\ButtonReset.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\RecipeSO.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\UI\GameStartCountdownUI.cs" />

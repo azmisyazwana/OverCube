@@ -6,12 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuUI : MonoBehaviour
 {
-    [SerializeField] private Button playButton;
+    [SerializeField] private Button gameButton;
+    [SerializeField] private Button materiButton;
     [SerializeField] private Button quitButton;
 
     private void Awake() {
-        playButton.onClick.AddListener(() => {
+        gameButton.onClick.AddListener(() => {
             Loader.Load(Loader.Scene.GameScene);
+        });
+        materiButton.onClick.AddListener(() => {
+            Loader.Load(Loader.Scene.MateriScene);
         });
         quitButton.onClick.AddListener(() => {
             Application.Quit();
